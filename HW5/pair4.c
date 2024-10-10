@@ -117,7 +117,7 @@ void print_data(Data d)
     case TDUO:
         printf("(");
         print_data(d.pval->d[0]);
-        printf(" , ");
+        printf(" . ");
         print_data(d.pval->d[1]);
         printf(")");
         break;
@@ -133,7 +133,7 @@ Data parse_pair(int *i)
     Data d1 = parse_data(i);
     while (buf[*i] == ' ')
         (*i)++;
-    if (buf[*i] == ',')
+    if (buf[*i] == '.')
     {
         (*i)++;
         while (buf[*i] == ' ')
@@ -148,13 +148,13 @@ Data parse_pair(int *i)
         }
         else
         {
-            fputs("Error: expected closing parenthesis\n", stderr);
+            fputs("Error: expected )\n", stderr);
             exit(1);
         }
     }
     else
     {
-        //아무것도 없는 데이터
+        
         return nill;
     }
 }
@@ -193,7 +193,7 @@ Data parse_data(int *i)
     else
     {
         int start = *i;
-        while (buf[*i] != ' ' && buf[*i] != '\0')
+        while (buf[*i] != ' ' && buf[*i] !=')' && buf[*i] != '\0')
             (*i)++;
         str tmp = substr(buf, start, *i);
         if (strcmp(tmp, "nil") == 0)

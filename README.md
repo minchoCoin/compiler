@@ -14,3 +14,6 @@ Assignments of compiler lecture(2024 fall)
 ## HW5
 - parsing string into integer, symbol, string values, and Pair type.
     - It is possible that pair have pair type.
+
+## HW6
+- parsing string into integer, symbol, and List

@@ -21,4 +21,4 @@ Assignments of compiler lecture(2024 fall)
 ## HW7
 - count words and special signs('(',')','.',',','-','_','!'@' etc) from one-line string.
     - with Lex
-    - without Lex(writing c code)
+    - without Lex(just writing c code)

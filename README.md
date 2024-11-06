@@ -17,8 +17,11 @@ Assignments of compiler lecture(2024 fall)
 
 ## HW6
 - parsing string into integer, symbol, and List
-
+    - parsing list to pair((8 3) => (8 . (3 . NIL)))
 ## HW7
 - count words and special signs('(',')','.',',','-','_','!'@' etc) from one-line string.
     - with Lex
     - without Lex(just writing c code)
+## HW8
+- parsing string into integer, symbol, string, and list using lex
+    - parsing list to pair((8 3) => (8 . (3 . NIL)))

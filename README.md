@@ -25,3 +25,6 @@ Assignments of compiler lecture(2024 fall)
 ## HW8
 - parsing string into integer, symbol, string, and list using lex
     - parsing list to pair((8 3) => (8 . (3 . NIL)))
+## HW9
+- making simple calculator through parsing list.
+    - ex) (+ 3 5) => 8, (/ +10 -5) => -2, (* 10 10) => 100

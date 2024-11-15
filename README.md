@@ -28,3 +28,18 @@ Assignments of compiler lecture(2024 fall)
 ## HW9
 - making simple calculator through parsing list.
     - ex) (+ 3 5) => 8, (/ +10 -5) => -2, (* 10 10) => 100
+
+## HW10
+- get right parse of arithmetic formula
+
+```
+23 - 5 / 2
+F -> n
+T -> F
+E -> T
+F -> n
+T -> F
+F -> n
+T -> T / F
+E -> E - T
+```

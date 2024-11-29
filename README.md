@@ -51,3 +51,14 @@ E -> E - T
 23 / 5 - 7 * -12
 88
 ```
+
+## HW12
+- make abstract syntax tree(AST)
+```
+11 + 12 * 13
+Op(+)
+    Int(11)
+    Op(*)
+        Int(12)
+        Int(13)
+```

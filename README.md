@@ -62,3 +62,29 @@ Op(+)
         Int(12)
         Int(13)
 ```
+
+## HW13
+- code generator
+```
+- 25 * - (2 - 3)
+
+ldc 25
+neg
+ldc 2
+ldc 3
+sub
+neg
+mul
+```
+```
+(- 11 + 7) * (31 - + 12)
+
+ldc 11
+neg
+ldc 7
+add
+ldc 31
+ldc 12
+sub
+mul
+```

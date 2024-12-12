@@ -88,3 +88,15 @@ ldc 12
 sub
 mul
 ```
+## non-coding assignments
+### HW14
+- LL(1) parsing
+    - computing FIRST and FOLLOW
+    - LL(1) Parsing Table
+    - LL(1) Parsing
+### HW15
+- LR parsing
+    - computing FIRST and FOLLOW
+    - canonical LR(0) collection
+    - SLR(1) Parsing Table
+    - LR parsing using SLR(1) parsing table
